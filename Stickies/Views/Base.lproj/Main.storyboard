@@ -207,11 +207,29 @@
                                     <action selector="saveButtonTapped:" destination="Rlv-DP-17Q" eventType="touchUpInside" id="CqY-7k-084"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1e-iB-LZh">
+                                <rect key="frame" x="25" y="559" width="364" height="40"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xm1-Lk-HdC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="DELETE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="Rlv-DP-17Q" eventType="touchUpInside" id="GHI-2p-IF9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6w1-ZI-d0Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="R1e-iB-LZh" firstAttribute="leading" secondItem="6w1-ZI-d0Q" secondAttribute="leading" constant="25" id="1dg-QO-tbz"/>
                             <constraint firstItem="6w1-ZI-d0Q" firstAttribute="trailing" secondItem="qaN-Pt-0UE" secondAttribute="trailing" constant="25" id="FXf-Yn-MJr"/>
+                            <constraint firstItem="6w1-ZI-d0Q" firstAttribute="trailing" secondItem="R1e-iB-LZh" secondAttribute="trailing" constant="25" id="G64-Aw-vhV"/>
+                            <constraint firstItem="R1e-iB-LZh" firstAttribute="top" secondItem="JTG-qa-ys1" secondAttribute="bottom" constant="40" id="H4m-Vg-JLZ"/>
                             <constraint firstItem="ai2-as-aGq" firstAttribute="leading" secondItem="6w1-ZI-d0Q" secondAttribute="leading" constant="25" id="KE5-RS-7FS"/>
                             <constraint firstItem="6w1-ZI-d0Q" firstAttribute="trailing" secondItem="JTG-qa-ys1" secondAttribute="trailing" constant="25" id="LRb-qK-hfT"/>
                             <constraint firstItem="ai2-as-aGq" firstAttribute="top" secondItem="qaN-Pt-0UE" secondAttribute="bottom" constant="40" id="PvE-62-KM7"/>
@@ -227,6 +245,7 @@
                     <connections>
                         <outlet property="sTbackgroundView" destination="ai2-as-aGq" id="gsj-La-1dC"/>
                         <outlet property="sTblueButton" destination="NgI-GF-4XX" id="zIA-7Q-0dJ"/>
+                        <outlet property="sTdeleteButton" destination="R1e-iB-LZh" id="SLc-dm-9ZH"/>
                         <outlet property="sTgreenButton" destination="PCI-me-aPo" id="k5O-m1-TcW"/>
                         <outlet property="sTmainTextView" destination="Thp-cl-OEZ" id="SfQ-3O-y7Y"/>
                         <outlet property="sTpurpleButton" destination="b25-YU-bFT" id="sbP-hZ-KTJ"/>
@@ -266,6 +285,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

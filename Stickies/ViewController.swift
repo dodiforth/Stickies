@@ -19,6 +19,10 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         setupNaviBar()
         setupTableView()
+        
+        //to get a path to where the data is being stored for the current app
+        print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
+        
     }
     
     // 화면에 다시 진입할때마다 테이블뷰 리로드
