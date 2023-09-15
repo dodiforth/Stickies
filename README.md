@@ -5,7 +5,7 @@
 
 ## Introduction
 This is a Todo List App inspired by MacOS App Stickies. 
-So the colour scheme is somewhat similar to Stickies on MacOS
+So the colour scheme is somewhat similar to Stickies on MacOS.
 The application use Core Data to create, read, update and delete(CRUD) datas.
 
 # Concepts Utilized
