@@ -17,6 +17,9 @@ Stickies is a Todo List App inspired by the Stickies app on macOS. The color sch
 
 ## Screenshots
 ![iPhone 14 01](https://github.com/dodiforth/Stickies/assets/50798761/4317b007-141c-41e5-b612-0d9162274c9d)
+![iPhone 14 02](https://github.com/dodiforth/Stickies/assets/50798761/79535e8f-9c23-47f4-a5ef-076d710514ff)
+![iPhone 14 03](https://github.com/dodiforth/Stickies/assets/50798761/fb80c34a-cf56-4a76-a022-7330d39811ff)
+![iPhone 14 04](https://github.com/dodiforth/Stickies/assets/50798761/16ca6648-be08-4de1-bae6-5ab75d0ffa58)
 
 ## Concepts Utilized
 
