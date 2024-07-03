@@ -1,4 +1,4 @@
-![Description of GIF](assets/iPhone 14 01.gif)
+![iPhone 14 01](https://github.com/dodiforth/Stickies/assets/50798761/4317b007-141c-41e5-b612-0d9162274c9d)
 
 # Stickies - iOS
 
