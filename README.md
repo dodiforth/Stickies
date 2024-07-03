@@ -1,6 +1,6 @@
 # Stickies - iOS
 
-![Stickies](map.png)
+![Stickies](assets/map.png)
 
 ## Introduction
 
